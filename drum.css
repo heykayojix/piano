@@ -1,68 +1,67 @@
 html {
-    font-size: 10px;
-    background: url(./sounds/music-news.jpeg);
-    background-size:cover;
+  font-size: 10px;
+  background: url(./sounds/music-news.jpeg);
+  background-size: cover;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: serif;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
 }
 
 .keys-row-1 {
-    display: Flex;
-    flex: 1;
-    min-height: 30vh;
-    align-items:center;
-    justify-content: center;
-    
-
+  display: Flex;
+  flex: 1;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .keys-row-2 {
-    display: Flex;
-    flex: 1;
-    min-height: 30vh;
-    align-items:center;
-    justify-content: center;
+  display: Flex;
+  flex: 1;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .keys-row-3 {
-    display: Flex;
-    flex: 1;
-    min-height: 30vh;
-    align-items:center;
-    justify-content: center;
+  display: Flex;
+  flex: 1;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .key {
-    border: .4rem solid black;
-    border-radius: .5rem;
-    margin: 1rem; /*come back here  for spacing between keys*/
-    padding: 1rem .5rem;
-    transition: all .20s ease; /* pay attention */
-    width: 10rem;
-    text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem; /*come back here  for spacing between keys*/
+  padding: 1rem 0.5rem;
+  transition: all 0.2s ease; /* pay attention */
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
 }
 
 kbd {
-    display: block;
-    font-size: 4rem;
+  display: block;
+  font-size: 4rem;
 }
 
 .streaming {
-    transform: scale(1.1);
-    border-color: #14cd89;
-    box-shadow: 0 0 1rem #21bb73;
-  }
+  transform: scale(1.1);
+  border-color: #14cd89;
+  box-shadow: 0 0 1rem #21bb73;
+}
 
-  .sound {
-    font-size: 1.01rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    color: #1facd7;
-  }
+.sound {
+  font-size: 1.01rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #1facd7;
+}

@@ -10,8 +10,6 @@ function playSound(e) {
   key.classList.add("streaming"); //to the string to the class, and the CSS styles, whenever any key is pressed.
 }
 
-window.addEventListener("keydown", playSound);
-
 function removeTransition(e) {
   // console.log(e);
   if (e.propertyName !== "transform") return; //skip it, if it's not a transform.
@@ -21,3 +19,4 @@ function removeTransition(e) {
 }
 const keys = document.querySelectorAll(".key");
 keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
+window.addEventListener("keydown", playSound);
